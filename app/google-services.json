@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "236495610008",
+    "project_id": "fotografpaylasimuygulama-dbe42",
+    "storage_bucket": "fotografpaylasimuygulama-dbe42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236495610008:android:bc434233333a8a956b70ed",
+        "android_client_info": {
+          "package_name": "com.batuhan.fotorafpaylasmaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuXrA1A5ms_hwpMAdLOFXoqpcv09G2AOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

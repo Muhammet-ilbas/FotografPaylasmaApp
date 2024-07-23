@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/kayitFragment2">
+    <fragment
+        android:id="@+id/kayitFragment2"
+        android:name="com.batuhan.fotorafpaylasmaapp.view.KayitFragment"
+        android:label="fragment_kayit"
+        tools:layout="@layout/fragment_kayit" >
+        <action
+            android:id="@+id/action_kayitFragment2_to_feedFragment2"
+            app:destination="@id/feedFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/feedFragment2"
+        android:name="com.batuhan.fotorafpaylasmaapp.view.FeedFragment"
+        android:label="fragment_feed"
+        tools:layout="@layout/fragment_feed" >
+        <action
+            android:id="@+id/action_feedFragment2_to_yuklemeFragment2"
+            app:destination="@id/yuklemeFragment2" />
+        <action
+            android:id="@+id/action_feedFragment2_to_kayitFragment2"
+            app:destination="@id/kayitFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/yuklemeFragment2"
+        android:name="com.batuhan.fotorafpaylasmaapp.view.YuklemeFragment"
+        android:label="fragment_yukleme"
+        tools:layout="@layout/fragment_yukleme" >
+        <action
+            android:id="@+id/action_yuklemeFragment2_to_feedFragment23"
+            app:destination="@id/feedFragment2" />
+    </fragment>
+</navigation>
